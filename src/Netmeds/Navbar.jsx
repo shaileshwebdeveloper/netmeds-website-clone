@@ -4,7 +4,8 @@ import { Box, HStack, Img, Input, InputGroup, InputLeftAddon,Modal,
   Button,
   useDisclosure,
   Heading,
-  Text, } from '@chakra-ui/react'
+  Text,
+  Flex, } from '@chakra-ui/react'
 
 // import React, { useContext } from 'react'
 import {FaSearchLocation} from 'react-icons/fa';
@@ -13,7 +14,7 @@ import { NavLink } from 'react-router-dom';
 
 
 const NavContainer={
-//    border:"1px solid red",
+ display : "flex",
  width:"100%",
  height:"100px",
  backgroundColor:"#32AEB1",
@@ -41,9 +42,9 @@ return (
   <>
   <Box style={NavContainer}>
   <HStack width="60%" margin="auto" gap="60px" mt="20px">
-  <NavLink to="/"><Img w="268px" h="60px" src="https://www.netmeds.com/assets/gloryweb/images/home-logo-netmeds-new.svg" /></NavLink>
+  <NavLink to="/"><Img w="500px" h="60px" src="https://www.netmeds.com/assets/gloryweb/images/home-logo-netmeds-new.svg" /></NavLink>
   <InputGroup>
-  <InputLeftAddon width="170px" height="50px" cursor="pointer" fontWeight="700" backgroundColor="#fff" color="black" children="Deliver to 110094" onClick={onOpen}/>
+  <InputLeftAddon width="150px" height="50px" cursor="pointer" fontWeight="700" backgroundColor="#fff" color="black" children="Deliver to 110094" onClick={onOpen}/>
   <Modal  isOpen={isOpen} onClose={onClose}>
       <ModalContent style={modal}>
         <ModalBody>
@@ -54,13 +55,15 @@ return (
         </ModalBody>
       </ModalContent>
     </Modal>
-  <Input backgroundColor="#fff" height="50px" type="text" placeholder="Search for medicine & wellness products..." color="lightgrey" />
+  <Input backgroundColor="#fff" height="50px"  width="00px" type="text" placeholder="Search for medicine & wellness products..." color="lightgrey" />
   </InputGroup>
   <Button variant="link" color="#fff"><i className="fa-solid fa-scroll">&nbsp;</i>Upload</Button>
   <NavLink to="/cart"><Button variant="link" color="#fff"><i className="fa-solid fa-cart-shopping">&nbsp;</i>Cart</Button></NavLink>
   {/* Auth */}
 
-   <NavLink to="/profile"><Button variant="link" color="#fff"><i className="fa-solid fa-user"></i>&nbsp; Guest</Button></NavLink> : <NavLink to="/login"> <Button variant="link" color="#fff"><i className="fa-solid fa-user"></i>&nbsp; Sign in/Sign up</Button> </NavLink>
+   {/* <NavLink to="/profile"><Button variant="link" color="#fff"><i className="fa-solid fa-user"></i>&nbsp; Guest</Button> </NavLink>  */}
+   
+    <NavLink to="/login"> <Button variant="link" color="#fff"><i className="fa-solid fa-user"></i>&nbsp; Sign in/Sign up</Button> </NavLink>
 
   </HStack>
   </Box>

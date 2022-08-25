@@ -1,5 +1,5 @@
 import './App.css';
-import { Main } from './day-2/Main';
+import { Main } from './Netmeds/Main';
 
 
 

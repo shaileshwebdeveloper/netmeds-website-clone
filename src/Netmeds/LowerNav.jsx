@@ -12,8 +12,8 @@ const menuItem={
     // border:"1px solid red",
     width:"100%",
     paddingTop:"100px",
-    
   }
+  
   const itemBox={
     // border:"1px solid red",
     width:"80%",
@@ -118,18 +118,18 @@ function LowerNav() {
 
       <Box backgroundColor="#F2F7FA" height="100%" display="flex" gap="10px" >
        <Box paddingLeft="65px" width="70%" display="flex" gap="20px" height="100%" margin="auto" fontWeight="600">
-       <NavLink to="#">COVID Essentials</NavLink>
-        <NavLink to="#">Diabetes</NavLink>
-        <NavLink to="#">Eyewear</NavLink>
-        <NavLink to="#">Ayush</NavLink>
-        <NavLink to="#">Ayurvedic</NavLink>
-        <NavLink to="#">Homeopathy</NavLink>
-        <NavLink to="#">Fitness</NavLink>
-        <NavLink to="#">Mom & Baby</NavLink>
-        <NavLink to="#">Devices</NavLink>
-        <NavLink to="#">Surgicals</NavLink>
-        <NavLink to="#">Sexual Awareness</NavLink>
-        <NavLink to="#">Treaments</NavLink>
+       <NavLink to="#"> <Text fontSize='xs'>COVID Essentials</Text></NavLink>
+        <NavLink to="#"> <Text fontSize='xs'> Diabetes </Text></NavLink>
+        <NavLink to="#"> <Text fontSize='xs'> Eyewear </Text></NavLink>
+        <NavLink to="#"> <Text fontSize='xs'> Ayush </Text></NavLink>
+        <NavLink to="#"> <Text fontSize='xs'> Ayurvedic </Text></NavLink>
+        <NavLink to="#"> <Text fontSize='xs'> Homeopathy </Text></NavLink>
+        <NavLink to="#"> <Text fontSize='xs'> Fitness </Text></NavLink>
+        <NavLink to="#"> <Text fontSize='xs'> Mom & Baby </Text></NavLink>
+        <NavLink to="#"> <Text fontSize='xs'> Devices </Text></NavLink>
+        <NavLink to="#"> <Text fontSize='xs'> Surgicals </Text></NavLink>
+        <NavLink to="#"> <Text fontSize='xs'> Sexual Awareness </Text></NavLink>
+        <NavLink to="#"> <Text fontSize='xs'> Treaments </Text></NavLink>
        </Box>
       </Box>
     </Grid>
