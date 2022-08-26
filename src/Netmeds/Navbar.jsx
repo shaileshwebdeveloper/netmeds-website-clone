@@ -6,10 +6,12 @@ import { Box, HStack, Img, Input, InputGroup, InputLeftAddon,Modal,
   Heading,
   Text,
   Flex, } from '@chakra-ui/react'
+import { useContext } from 'react';
 
 // import React, { useContext } from 'react'
 import {FaSearchLocation} from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
+import { AuthContext } from '../AuthContext/AuthContext';
 // import { AuthContext } from '../day-3/AuthContext/AuthContext';
 
 
@@ -32,10 +34,10 @@ const textStyle={
   marginTop:"12px",
   gap:"10px"
 }
-function Navbar() {
+function Navbar({toggle}) {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
-  // const auth = useContext(AuthContext)
+  const auth = useContext(AuthContext)
   // console.log("toggle:",toggle)
   
 return (
@@ -59,11 +61,8 @@ return (
   </InputGroup>
   <Button variant="link" color="#fff"><i className="fa-solid fa-scroll">&nbsp;</i>Upload</Button>
   <NavLink to="/cart"><Button variant="link" color="#fff"><i className="fa-solid fa-cart-shopping">&nbsp;</i>Cart</Button></NavLink>
-  {/* Auth */}
 
-   {/* <NavLink to="/profile"><Button variant="link" color="#fff"><i className="fa-solid fa-user"></i>&nbsp; Guest</Button> </NavLink>  */}
-   
-    <NavLink to="/login"> <Button variant="link" color="#fff"><i className="fa-solid fa-user"></i>&nbsp; Sign in/Sign up</Button> </NavLink>
+  {toggle === true ? <NavLink to="/profile"><Button variant="link" color="#fff"><i className="fa-solid fa-user"></i>&nbsp; Guest</Button></NavLink> : <NavLink to="/login"> <Button variant="link" color="#fff"><i className="fa-solid fa-user"></i>&nbsp; Sign in/Sign up</Button> </NavLink>}
 
   </HStack>
   </Box>
