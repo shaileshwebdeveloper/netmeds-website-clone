@@ -1,6 +1,5 @@
 import './App.css';
-import { Main } from './Netmeds/Main';
-
+import { AllRoutes } from './Netmeds/AllRoutes';
 
 
 function App() {
@@ -9,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-        <Main/>
+        <AllRoutes/>
     </div>
   );
 }

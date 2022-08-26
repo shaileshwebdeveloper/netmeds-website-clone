@@ -1,8 +1,6 @@
-import React from 'react'
+
 import HealthLibrary from './HealthLibrary'
 import { Footer } from './Footer'
-import Navbar from './Navbar'
-import LowerNav from './LowerNav'
 import Refill from './Refill'
 import { SliderAds } from './SliderAds'
 import { Category } from './Category'
@@ -12,11 +10,11 @@ import { Trending } from './Trending'
 
 
 export const Main = () => {
+
+
   return (
     <div>
      
-    <Navbar/>
-    <LowerNav/>
     <SliderAds/>
     <Category/>
     <PaymentOffers/>
