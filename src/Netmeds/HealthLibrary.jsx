@@ -39,20 +39,20 @@ function HealthLibrary() {
             >
             <SwiperSlide>
                 <Box style={itemBox}>
-                 <Img  src="https://www.netmeds.com/images/cms/magefan_blog/nmslite/1658233510_Ayurvedic-Indications_480x180.jpg" />
-                 <Heading mt="12px" textAlign="left" fontSize="17px">Prabhakar Vati: Uses, Health Benefits, Ayurvedic </Heading>
+                 <Img  src="https://www.netmeds.com/images/cms/magefan_blog/nmslite/1580799045_MulethiPowder_Featuredimage_480x180.jpg" />
+                 <Heading mt="12px" textAlign="left" fontSize="17px">Mulethi/Licorice Powder: Benefits, Uses, Ingredients </Heading>
                 </Box>
             </SwiperSlide>
             <SwiperSlide>
                 <Box style={itemBox}>
-                <Img  src="https://www.netmeds.com/images/cms/magefan_blog/nmslite/1658233877_Polyhydroxy-acids_480x180.jpg" />
-                 <Heading mt="12px" textAlign="left" fontSize="17px">What are Polyhydroxy(PHAs)</Heading>
+                <Img  src="https://www.netmeds.com/images/cms/magefan_blog/nmslite/1661425589_Vatsanabh_480x180.jpg" />
+                 <Heading mt="12px" textAlign="left" fontSize="17px">Vatsanabh/Vatsanabha: Uses, Health Benefits, Ayurvedic</Heading>
                 </Box>
             </SwiperSlide>
             <SwiperSlide>
                 <Box style={itemBox}>
-                <Img  src="https://www.netmeds.com/images/cms/magefan_blog/nmslite/1658234026_Radionuclide-Scintigraphy_480x180.jpg" />
-                 <Heading mt="12px" textAlign="left" fontSize="17px">Radionuclide Scintigraphy</Heading>
+                <Img  src="https://www.netmeds.com/images/cms/magefan_blog/nmslite/1661425341_High-Cholesterol_480x180.jpg" />
+                 <Heading mt="12px" textAlign="left" fontSize="17px">High Cholesterol Count? This Is How You Bring</Heading>
                 </Box>
             </SwiperSlide>
             <SwiperSlide>
@@ -63,8 +63,8 @@ function HealthLibrary() {
             </SwiperSlide>
             <SwiperSlide>
                 <Box style={itemBox}>
-                <Img  src="https://www.netmeds.com/images/cms/magefan_blog/nmslite/1658139045_Red-Sandalwood_480x180.jpg" />
-                 <Heading mt="12px" textAlign="left" fontSize="17px">Red Sandlwood : Uses, Health Benefits</Heading>
+                <Img  src="https://www.netmeds.com/images/cms/magefan_blog/nmslite/1661423925_Apple-Cider-Vinegar_480x180.jpg" />
+                 <Heading mt="12px" textAlign="left" fontSize="17px">Apple Cider Vinegar For Beauty</Heading>
                 </Box>
             </SwiperSlide>
       

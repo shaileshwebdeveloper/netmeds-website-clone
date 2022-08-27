@@ -57,7 +57,7 @@ return (
         </ModalBody>
       </ModalContent>
     </Modal>
-  <Input backgroundColor="#fff" height="50px"  width="00px" type="text" placeholder="Search for medicine & wellness products..." color="lightgrey" />
+  <Input backgroundColor="#fff" height="50px"  width="250px" type="text" placeholder="Search for medicine & wellness products..." color="lightgrey" />
   </InputGroup>
   <Button variant="link" color="#fff"><i className="fa-solid fa-scroll">&nbsp;</i>Upload</Button>
   <NavLink to="/cart"><Button variant="link" color="#fff"><i className="fa-solid fa-cart-shopping">&nbsp;</i>Cart</Button></NavLink>
