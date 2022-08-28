@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
+import Cart from "./Cart";
+import Checkout from "./Checklout";
 import Login from "./Login";
 import LowerNav from "./LowerNav";
 import { Main } from "./Main";
@@ -18,6 +20,8 @@ export const AllRoutes = () => {
     <LowerNav/>
     <Routes>
       <Route path="/" element={<Main/>} />
+      <Route path="/checkout" element={<Checkout/>} />
+      <Route path="/cart" element={<PrivateRoute><Cart/></PrivateRoute>} />
       <Route path="/login" element={<Login setToggle={setToggle} />}/>
       <Route path="/profile" element={<PrivateRoute><Profile setToggle={setToggle} /></PrivateRoute>}/>
 
