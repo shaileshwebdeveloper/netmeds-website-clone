@@ -22,11 +22,11 @@ function Cart() {
             <Heading fontSize="22px" color="grey" textAlign="left" pl='12px'>Products</Heading>
             <Box mt="12px" h="200px">
               <Flex>
-                <Box><Img w="120px" src="https://www.netmeds.com/images/product-v1/150x150/903020/the_man_company_beard_wax_almond_thyme_50_gm_0_0.jpg" /></Box>
-                <Box textAlign="left" padding="12px"><Text>The Man Company Beard Wax - Almond & Thyme 50 gm</Text>
+                <Box><Img w="120px" src="https://www.netmeds.com/images/product-v1/150x150/821313/kapiva_aloe_amla_juice_1_ltr_0_2.jpg" /></Box>
+                <Box textAlign="left" padding="12px"><Text>Kapiva Aloe + Amla Juice 1 ltr</Text>
                 <Text color="green" fontSize="13px">Only 10 Left In Stock</Text>
                 <Text color="grey" fontSize="13px">Mkt: The Man Company</Text>
-                <Text color="red">Rs. 411.75 </Text>
+                <Text color="red">₹ 420.00  </Text>
                 <Flex mt="12px" float="right" gap="10px">
                   <Button>Remove</Button>
                   <Button>Save for later</Button>
@@ -56,9 +56,9 @@ function Cart() {
         <Box borderRadius="12px" boxShadow="rgba(149, 157, 165, 0.2) 0px 8px 24px" pl="14px" textAlign="left" mt="-130px" w="35%" mr="130px" h="200px" float="right">
         <Text color="grey" fontWeight="500">PAYMENT DETAILS</Text>
         <Box  lineHeight="30px" height="80%">
-          <Flex gap="130px"><Text>MRP TOTAL</Text><Text>Rs.395.00</Text></Flex>
-          <Flex gap="90px"><Text>Netmeds Discount</Text><Text>Rs.39.50</Text></Flex>
-          <Flex gap="90px"><Text fontWeight="500">TOTAL AMOUNT</Text><Text fontWeight="500">Rs.355.50</Text></Flex>
+          <Flex gap="130px"><Text>MRP TOTAL</Text><Text> 420.00 </Text></Flex>
+          <Flex gap="90px"><Text>Netmeds Discount</Text><Text> 42.00</Text></Flex>
+          <Flex gap="90px"><Text fontWeight="500">TOTAL AMOUNT</Text><Text fontWeight="500">Rs.378.00</Text></Flex>
           <NavLink to='/checkout'><Button backgroundColor="#24AEB1" color="#fff" w="100%" mt="20px">PROCEED</Button></NavLink>
         </Box>
         

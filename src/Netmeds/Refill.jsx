@@ -3,7 +3,7 @@ import React from 'react'
 
 const container={
   height:"540px",
-  width:"80%",
+  width:"90%",
   margin:"auto",
   marginBottom:"40px"
 }

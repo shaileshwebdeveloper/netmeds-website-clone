@@ -9,7 +9,7 @@ import 'swiper/css/scrollbar';
 
 const container={
     height:"auto",
-    width:"80%",
+    width:"90%",
     margin:"auto",
     
 }
