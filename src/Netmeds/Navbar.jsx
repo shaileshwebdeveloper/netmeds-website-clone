@@ -46,7 +46,7 @@ return (
   <HStack width="60%" margin="auto" gap="60px" mt="20px">
   <NavLink to="/"><Img w="500px" h="60px" src="https://www.netmeds.com/assets/gloryweb/images/home-logo-netmeds-new.svg" /></NavLink>
   <InputGroup>
-  <InputLeftAddon width="150px" height="50px" cursor="pointer" fontWeight="700" backgroundColor="#fff" color="black" children="Deliver to 110094" onClick={onOpen}/>
+  <InputLeftAddon width="100px" height="50px" cursor="pointer" fontWeight="700" backgroundColor="#fff" color="black" children="Deliver to 110094" onClick={onOpen}/>
   <Modal  isOpen={isOpen} onClose={onClose}>
       <ModalContent style={modal}>
         <ModalBody>

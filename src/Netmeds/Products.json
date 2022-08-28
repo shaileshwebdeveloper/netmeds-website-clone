@@ -1,0 +1,44 @@
+[
+        {
+           "src":"https://www.netmeds.com/images/product-v1/150x150/821313/kapiva_aloe_amla_juice_1_ltr_0_2.jpg",
+           "title":"Kapiva Aloe + Amla Juice 1 ltr",
+           "price":"₹ 420.00 ",
+           "mrp":" ₹ 500.00",
+           "off" : "UPTO 16 % off"
+        },
+        {
+            "src":"https://www.netmeds.com/images/product-v1/150x150/821278/kapiva_wild_amla_juice_1_ltr_0_3.jpg",
+            "title":"Kapiva Wild Amla Juice 1 Ltr",
+            "price":" ₹ 420.00 ",
+            "mrp":" ₹ 299.00",
+            "off" : "UPTO 17 % off"
+         },
+         {
+            "src":"https://www.netmeds.com/images/product-v1/150x150/913414/kapiva_artho_sure_capsule_60s_0_1.jpg",
+            "title":"Kapiva Artho Sure Capsule 60's",
+            "price":" ₹ 249.50",
+            "mrp":" ₹ 499.00",
+            "off" : "UPTO 50 % off"
+         },
+         {
+            "src":"https://www.netmeds.com/images/product-v1/150x150/822621/kapiva_noni_juice_1_ltr_0_3.jpg",
+            "title":"Kapiva Noni Juice 1 ltr",
+            "price":" ₹ 480.00 ",
+            "mrp":" ₹ 600.00",
+            "off" : "UPTO 20 % off"
+         },
+         {
+            "src":"https://www.netmeds.com/images/product-v1/150x150/822582/kapiva_dia_free_capsules_60s_0_2.jpg",
+            "title":"Kapiva Dia Free Capsules 60's",
+            "price":" ₹ 291.27 ",
+            "mrp":"₹ 399.00",
+            "off" : "UPTO 27 % off"
+         },
+         {
+            "src":"https://www.netmeds.com/images/product-v1/150x150/835509/kapiva_ginger_burst_honey_250_gm_0_1.jpg",
+            "title":"Kapiva Wild Honey 1 Ltr",
+            "price":" ₹ 420.00 ",
+            "mrp":" ₹ 299.00",
+            "off" : "UPTO 17 % off"
+         }
+    ]

@@ -8,6 +8,7 @@ import { PaymentOffers } from './PaymentOffers'
 import { PreviousOrder } from './PreviousOrder'
 import { Trending } from './Trending'
 import { ShopByCategory } from './ShopByCategory'
+import { Limited } from './Limited'
 
 
 export const Main = () => {
@@ -22,6 +23,8 @@ export const Main = () => {
     <PreviousOrder/>
     <br />
     <Trending/>
+    <Limited/>
+    <br />
     <ShopByCategory/>
     <br />
     <Refill/>
