@@ -30,8 +30,6 @@ This is a netmeds website clone project made during construct week at Masai.
 </br>
 ⚡️ CSS
 </br>
-⚡️ SCSS
-</br>
 ⚡️ React
 </br>
 ⚡️ Chakra-Ui
